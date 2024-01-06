@@ -1,21 +1,22 @@
 <?php
 
-// This is a deliberate mistake
+// Corrected variable values
 $variable1 = 10;
-$variable2 = "20"; // Note the incorrect usage of quotes
+$variable2 = 20;
 
-// Attempting to add a string and an integer (causing a type mismatch)
+// Corrected addition of two integers
 $result = $variable1 + $variable2;
 
-// This line is intentionally missing a semicolon
+// Corrected the missing semicolon
 echo "The result is: " . $result;
 
-// Intentional syntax error: Missing closing parenthesis
+// Corrected the syntax of the if statement
 if ($variable1 > 5) {
     echo "Variable1 is greater than 5";
 }
 
-// Attempting to call an undefined function
-
+// This line is intentionally commented out to prevent calling an undefined function
+// nonExistentFunction();
 
 ?>
+
