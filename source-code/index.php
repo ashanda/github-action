@@ -16,5 +16,5 @@ echo "The result is: " . $result;
 // This line is intentionally commented out to prevent calling an undefined function
 // nonExistentFunction();
 
-?>
+
 
